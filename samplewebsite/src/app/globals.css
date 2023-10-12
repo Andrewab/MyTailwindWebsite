@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.Header {
+  background-color: rgb(218, 229, 218);
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+.FrontPage {
+  background-color:aquamarine;
+  position: relative;
+  padding: 200px;
+  font-size: xx-large;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.SecondPage {
+  background-color:rgb(126, 32, 32);
+  position: relative;
+  padding: 100px;
+  font-size: xx-large;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ThirdPage {
+  position: relative;
+  padding: 100px;
+  font-size: xx-large;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: radial-gradient(circle, #6b1c1c 20%, #872f03 50%, #752e2e 80%);
+  background-size: 300% 300%;
+  animation: lava-lamp 120s infinite ease-in-out;
+
+}
+@keyframes lava-lamp {
+  0% {
+    background-position: 100% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
