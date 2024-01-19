@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-interface dataItem {
+interface DataItem {
     link: string;
     title: string;
     body: string;
@@ -37,10 +37,10 @@ function PaperBlock () {
         }
         return (
             <div className='grid grid-cols-3 gap-5 justify-center p-5% mb-20'>
-            {data.map((dataItem, index) => (
+            {data.map((item, index) => (
             <div className='mt-5 p-10 w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 rounded-lg font-serif text-18 flex bg-b0c4de overflow-auto flex-col' key={index}>
-                <Link className='hover:text-blue-500' href={dataItem.link}>
-                    {dataItem.title}
+                <Link className='hover:text-blue-500' href={item.link}>
+                    {item.title}
                 </Link>
             <br/>
             <br/>
