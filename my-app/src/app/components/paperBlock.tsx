@@ -7,7 +7,7 @@ function PaperBlock () {
 
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(false);
     useEffect(() => {
         async function fetchData() {
             try {
@@ -19,7 +19,7 @@ function PaperBlock () {
             }
                 catch(error) {
                     console.log("Breaking on PHILPAPERS");
-                    setError(error);
+                    setError(true);
                     setLoading(false);
                 }
             }
@@ -29,7 +29,7 @@ function PaperBlock () {
             return <div>Loading..</div>
         }
         if(error) {
-            return <div>Error: {error.message}</div>
+            return <div>Error: </div>
         }
         return (
             <div className='grid grid-cols-3 gap-5 justify-center p-5% mb-20'>
