@@ -1,0 +1,24 @@
+[
+{
+"title" : "The Case for Ethical and Normative Narrativity",
+"body" : "Within this paper, I argue against Galen Strawsons paper 'Against Narrativity'. In his paper, Strawson presents a framework which categorizes different styles of self constitution into 2 main categories: the Diachronic, and the Episodic. It is argued that there is not a necessarily better form to choose to live one's life, but rather that each life could be lived successfully depending upon the individual.. Strawson argues against both the normative claim to Narrativity, as well as the ethical claim to Narrativity. In this essay, I will be arguing against Strawson's view of Narrativity in both senses.",
+"link": "/philPaperPDFs/theCaseForEthicalAndNormativeNormativity.pdf"
+},
+{
+"title" : "Sterelny Defense Against Clark and Chalmers",
+"body" : "In this paper I argue against Clark and Chalmers idea of the Extended mind by proposing Sterelny's Scaffolded mind hypothesis. Clark believes that extracranial objects can be considered part of the mind if they meet certain requirements, but Sterelny thinks this classification is too broad. Clark and Chalmers use examples like Tetris and Otto's notebook to defend the Extended mind, but Sterelny believes this idea has unwanted side effects and is an overextension of what the mind is. Instead, Sterelny proposes the Scaffolded mind which incorporates portions of the Extended mind but in a more limited framework.",
+"link": "/philPaperPDFs/SterelnyDefenseAgainstlarkAndChalmers.pdf"
+},
+{
+"title" : "On the Nature of Weakness of Will",
+"body" : "In this paper, I explore ideas surrounding the nature of will and what it means to have or act in accordance of free will. I argue against the notion that weakness of will is the reason as to why individuals do not act according to reason. Rather, an individuals desires collectively constitute a rational process different from the one understood by that individual. This prominently discussed using Frankfurts understanding of first and second order desires.",
+"link": "/philPaperPDFs/OnTheNatureOfWeaknessOfWill.pdf"
+},
+{
+"title" : "Science as a Paradigm",
+"body" : "In this paper, I  argue that while science has gained power in modern society, there should be room for other forms of truth to exist, including religious truths, to prevent the monopolization of truth by science. I argue that what we know as truth is a product of the lens through which we perceive external sensory information and that truths are relative to the paradigms that they exist within. Furthermore, if paradigms conflict, we must be indifferent as we have no reason to assume one above the other. We must be careful to understand that, when these truths are taught, it is as a mechanism to obtain a scientific paradigms truth rather than truth as something objective.",
+"link": "/philPaperPDFs/ScienceAsAParadigm.pdf"
+}
+
+]
+
