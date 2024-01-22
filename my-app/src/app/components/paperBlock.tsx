@@ -42,7 +42,7 @@ function PaperBlock() {
       {data.map((item, index) => (
         <div className='mt-5 p-10 w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 rounded-lg font-serif text-18 flex bg-b0c4de overflow-auto flex-col' key={index}>
           <Link href={item.link}>
-            <a className='hover:text-blue-500'>{item.title}</a>
+            <div className='hover:text-blue-500'>{item.title}</div>
           </Link>
           <br />
           <br />
