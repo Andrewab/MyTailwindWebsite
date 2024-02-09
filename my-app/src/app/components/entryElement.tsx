@@ -2,7 +2,7 @@
 
 const entryElement = () => {
     return (
-    <div className="flex-row items-start mx-auto w-4/5 h-auto border border-purple-800 border-opacity-20 border-2 rounded-lg flex  bg-blue-800 bg-opacity-10">
+    <div className="flex-row items-start mx-auto w-4/5 h-auto shadow-md flex  bg-blue-800 bg-opacity-10">
         <div className="flex-1 flex-col w-1/2 mx-auto">
             <div className="pt-2 text-center font-roboto font-semibold text-2xl ">About me.</div>
             <p className="pl-4 pr-12 text-lg font-roboto">I am a graduate from the University of Puget Sound With a BS in Computer Science and Philosophy. My interests lie in understanding the world through nature and society. With a passion of creating software applications that are interesting, usefully, and most importantly exiting.</p>
