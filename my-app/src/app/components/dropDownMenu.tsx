@@ -1,7 +1,13 @@
 import Link from "next/link";
 import React from 'react';
 
-const DropDownMenu = ({ onMouseEnter, onMouseLeave, showDropDownMenu }) => {
+interface DropDownMenuProps {
+    onMouseEnter: () => void;
+    onMouseLeave: () => void;
+    showDropDownMenu: boolean;
+  }
+
+const DropDownMenu: React.FC<DropDownMenuProps> = ({ onMouseEnter, onMouseLeave, showDropDownMenu }) => {
   return (
     <div className={`inline-block border-2 border-gray-800 relative left-2 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <Link href="extraFiles/MyResume.pdf">
