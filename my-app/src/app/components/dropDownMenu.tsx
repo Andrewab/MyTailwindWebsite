@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from 'react';
+import MenuButton from "./menuButton";
 
 interface DropDownMenuProps {
     onMouseEnter: () => void;
@@ -8,11 +9,13 @@ interface DropDownMenuProps {
   }
 
 const DropDownMenu: React.FC<DropDownMenuProps> = ({ onMouseEnter, onMouseLeave, showDropDownMenu }) => {
+
+    
   return (
-    <div className={`inline-block border-2 border-gray-800 relative left-2 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      <Link href="extraFiles/MyResume.pdf">
-        My Resume
-      </Link>
+    <div className={`flex flex-col s inline-block border-solid border-2 bg-gray-300 border-gray-800 relative left-2 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+      <MenuButton text="My resume" link="extraFiles/MyResume.pdf"/>
+      <MenuButton text="My resume" link="extraFiles/MyResume.pdf"/>
+
       <style jsx>{`
         @keyframes slide-down {
           0% {

@@ -50,8 +50,8 @@ const Navbar = () => {
       <div className='fixed top-0'>
         <Image
           src="/images/menuBars.png"
-          width={65}
-          height={65}
+          width={67}
+          height={67}
           alt="Home"
           className="pr-2 cursor-pointer italic text-white hover:underline text-2xl font-roboto font-semibold p-2"
           onClick={scrollToTop}
