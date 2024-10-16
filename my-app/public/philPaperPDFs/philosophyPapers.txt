@@ -5,13 +5,13 @@
 "link": "/philPaperPDFs/theCaseForEthicalAndNormativeNormativity.pdf"
 },
 {
-"title" : "Sterelny Defense Against Clark and Chalmers",
-"body" : "In this paper I argue against Clark and Chalmers idea of the Extended mind by proposing Sterelny's Scaffolded mind hypothesis. Clark believes that extracranial objects can be considered part of the mind if they meet certain requirements, but Sterelny thinks this classification is too broad. Clark and Chalmers use examples like Tetris and Otto's notebook to defend the Extended mind, but Sterelny believes this idea has unwanted side effects and is an overextension of what the mind is. Instead, Sterelny proposes the Scaffolded mind which incorporates portions of the Extended mind but in a more limited framework.",
+"title" : "Sterelnys' Defense Against Clark and Chalmers",
+"body" : "I disagree with Clark and Chalmers idea of the Extended mind by proposing Sterelny's Scaffolded mind hypothesis. Clark believes that extracranial objects can be considered part of the mind if they meet certain requirements, but Sterelny thinks this classification is too broad. Clark and Chalmers use examples like Tetris and Otto's notebook to defend the Extended mind, but Sterelny believes this idea has unwanted side effects and is an overextension of what the mind is. Instead, Sterelny proposes the Scaffolded mind which incorporates portions of the Extended mind but in a more limited framework.",
 "link": "/philPaperPDFs/SterelnyDefenseAgainstlarkAndChalmers.pdf"
 },
 {
 "title" : "On the Nature of Weakness of Will",
-"body" : "In this paper, I explore ideas surrounding the nature of will and what it means to have or act in accordance of free will. I argue against the notion that weakness of will is the reason as to why individuals do not act according to reason. Rather, an individuals desires collectively constitute a rational process different from the one understood by that individual. This prominently discussed using Frankfurts understanding of first and second order desires.",
+"body" : "Here, I explore ideas surrounding the nature of will and what it means to have or act in accordance of free will. I argue against the notion that weakness of will is the reason as to why individuals do not act according to reason. Rather, an individuals desires collectively constitute a rational process different from the one understood by that individual. This prominently discussed using Frankfurts understanding of first and second order desires.",
 "link": "/philPaperPDFs/OnTheNatureOfWeaknessOfWill.pdf"
 },
 {

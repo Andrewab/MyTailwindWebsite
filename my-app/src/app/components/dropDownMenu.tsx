@@ -1,19 +1,18 @@
 import Link from "next/link";
 import React from 'react';
 import MenuButton from "./menuButton";
+import HomeButton from "./homeButton";
 
 interface DropDownMenuProps {
-    onMouseEnter: () => void;
     onMouseLeave: () => void;
     showDropDownMenu: boolean;
   }
 
-const DropDownMenu: React.FC<DropDownMenuProps> = ({ onMouseEnter, onMouseLeave, showDropDownMenu }) => {
-
+const DropDownMenu: React.FC<DropDownMenuProps> = ({onMouseLeave, showDropDownMenu }) => {
     
   return (
-    <div className={`flex flex-col s inline-block border-solid border-2 bg-gray-300 border-gray-800 relative left-2 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      <MenuButton text="My resume" link="extraFiles/MyResume.pdf"/>
+    <div className={`flex flex-col s inline-block border-solid border-2 bg-gray-300 border-gray-800 fixed top-0 left-0 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'} hover:pulse`} onMouseLeave={onMouseLeave}>
+      <HomeButton/>
       <MenuButton text="My resume" link="extraFiles/MyResume.pdf"/>
 
       <style jsx>{`
