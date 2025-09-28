@@ -38,7 +38,7 @@ function PaperBlock() {
   }
 
   return (
-    <div className='grid grid-cols-3 gap-5 justify-center p-5% mb-20'>
+    <div className='grid grid-cols-3 gap-5 justify-center p-5% ml-20 mr-20 mb-20 mt-5'>
       {data.map((item, index) => (
         <div className='mt-5 p-10 w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 shadow-md font-serif text-18 flex bg-b0c4de overflow-auto flex-col' key={index}>
           <Link href={item.link}>
