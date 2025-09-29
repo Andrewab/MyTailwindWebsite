@@ -40,13 +40,14 @@ function PaperBlock() {
   return (
     <div className='grid grid-cols-3 gap-5 justify-center p-5% ml-20 mr-20 mb-20 mt-5'>
       {data.map((item, index) => (
-        <div className='mt-5 p-10 w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 shadow-md font-serif text-18 flex bg-b0c4de overflow-auto flex-col' key={index}>
-          <Link href={item.link}>
-            <div className='hover:text-blue-500'>{item.title}</div>
-          </Link>
-          <br />
-          <br />
-          {item.body}
+        <div className='border-4 border-black border-solid rounded-lg w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 shadow-md font-serif flex bg-b0c4de overflow-auto flex-col ' key={index}>
+          <div className='text-xl text-center font-semibold text-white bg-blue-600 w-full p-1'>
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <div className='hover:text-green-500'>{item.title}</div>
+          </a>
+          </div>
+          <div className="p-7">{item.body}</div>
+          
         </div>
       ))}
     </div>

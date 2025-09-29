@@ -11,7 +11,7 @@
 },
 {
 "title" : "On the Nature of Weakness of Will",
-"body" : "Here, I explore ideas surrounding the nature of will and what it means to have or act in accordance of free will. I argue against the notion that weakness of will is the reason as to why individuals do not act according to reason. Rather, an individuals desires collectively constitute a rational process different from the one understood by that individual. This prominently discussed using Frankfurts understanding of first and second order desires.",
+"body" : "Here, I explore ideas surrounding the nature of will and what it means to have or act in accordance of free will. I argue against the notion that weakness of will is the reason as to why individuals do not act according to reason. Rather, an individuals desires collectively constitute a rational process different from the one understood by that individual. I tackle this subject using Frankfurts understanding of first and second order desires.",
 "link": "/philPaperPDFs/OnTheNatureOfWeaknessOfWill.pdf"
 },
 {
