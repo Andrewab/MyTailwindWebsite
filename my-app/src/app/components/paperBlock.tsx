@@ -41,13 +41,14 @@ function PaperBlock() {
     <div className='grid grid-cols-3 gap-5 justify-center p-5% ml-20 mr-20 mb-20 mt-5'>
       {data.map((item, index) => (
         <div className='border-4 border-black border-solid rounded-lg w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 shadow-md font-serif flex bg-b0c4de overflow-auto flex-col ' key={index}>
-          <div className='text-xl text-center font-semibold text-white bg-blue-600 w-full p-1'>
+          <div className='text-center font-semibold font-roboto text-2xl text-gray-200 bg-blue-600  hover:text-green-500 w-full p-1'>
           <a href={item.link} target="_blank" rel="noopener noreferrer">
-            <div className='hover:text-green-500'>{item.title}</div>
+            {item.title}
           </a>
           </div>
-          <div className="p-7">{item.body}</div>
-          
+          <div className="font-roboto text-xl p-7">
+            <div>{item.body}</div>
+          </div>
         </div>
       ))}
     </div>

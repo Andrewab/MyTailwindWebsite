@@ -11,9 +11,10 @@ interface DropDownMenuProps {
 const DropDownMenu: React.FC<DropDownMenuProps> = ({onMouseLeave, showDropDownMenu }) => {
     
   return (
-    <div className={`flex flex-col s inline-block border-solid border-2 bg-gray-300 border-gray-800 fixed top-0 left-0 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'} hover:pulse`} onMouseLeave={onMouseLeave}>
+    <div className={`flex flex-col border-solid border-2 bg-gray-300 border-gray-800 fixed top-0 left-0 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'} hover:pulse`} onMouseLeave={onMouseLeave}>
       <HomeButton/>
-      <MenuButton text="My resume" link="/extraFiles/myResume.pdf"/>
+      <MenuButton text="My resume" link="/extraFiles/Andrew Blanchettes Resume.pdf"/>
+
 
       <style jsx>{`
         @keyframes slide-down {

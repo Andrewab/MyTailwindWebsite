@@ -1,5 +1,3 @@
-
-import Image from 'next/image'
 import NavBar from './components/navBar'
 import EntryElement from './components/entryElement'
 import TopElement from './components/topElement'
