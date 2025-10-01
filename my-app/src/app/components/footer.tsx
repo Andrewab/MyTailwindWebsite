@@ -1,10 +1,12 @@
 'use client'
 
 import HomeButton from "./homeButton";
+import Secret from "./secret";
 
 const footer = () => {
     return (
-        <div className="absolute  w-full bg-black- h-10 ">
+        <div className="flex items-center absolute  w-full bg-black- h-10 ">
+            <Secret />
         </div>
     )
 }

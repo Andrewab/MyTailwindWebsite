@@ -15,7 +15,6 @@ export default function Home() {
       <NavBar/>
       <div className="pt-20"><TopElement/></div>
       <EntryElement/>
-      <MidElement/>
       <Footer/>
     </div>
     </main>
