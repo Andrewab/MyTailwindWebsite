@@ -2,12 +2,12 @@
 
 const entryElement = () => {
     return (
-    <div className="flex-row border-solid border-2 border-black place-items-stretch mx-auto w-3/5  shadow-2xl flex  bg-blue-800 bg-opacity-10">
+    <div className="flex-row border-solid border-2 border-black place-items-stretch mx-auto w-3/5  shadow-2xl flex  bg-blue-700 bg-opacity-60">
         <div className="border-solid border-2 border-black flex-1">
             <div className="pl-20 pr-20 pt-5 pb-5 text-center font-roboto font-semibold text-4xl text-gray-200 bg-blue-600">
                 <div >About me</div>
             </div>
-            <div className="p-10 text-2xl font-roboto indent-8">
+            <div className="p-10 text-2xl text-gray-100 font-roboto indent-8">
                 <p>
                     I am a graduate from the University of Puget Sound and CoFounder of Gandit Games Partnership. My interests lie in understanding the world through nature and society. I have a passion to create engaging and thought-provoking experiences through technology.</p>
                 <p className="pt-2"></p>
@@ -23,7 +23,7 @@ const entryElement = () => {
             <div className="pl-20 pr-20 pt-5 pb-5 text-center font-roboto font-semibold text-4xl text-gray-200 bg-blue-600">
                 <p>Skills</p>
             </div>
-            <div className=" p-10 flex-col text-center font-roboto text-xl align-top">
+            <div className=" p-10 flex-col text-gray-100 text-center font-roboto text-xl align-top">
                     <p className="font-bold">Languages & Scripting</p>
                     <div>JavaScript - Python3 - Java - C - C# - SQLLite - Git - Bash</div>
                     <p className="font-bold">Applications</p>
