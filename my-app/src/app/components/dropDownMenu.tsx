@@ -15,6 +15,7 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({onMouseLeave, showDropDownMe
       <HomeButton/>
       <MenuButton text="My resume" link="/extraFiles/Andrew Blanchettes Resume.pdf"/>
       <MenuButton text="Philosophy Papers" link="./PhilosophyPapers"/>
+      <MenuButton text="My Projects" link="./Projects"/>
 
       <style jsx>{`
         @keyframes slide-down {

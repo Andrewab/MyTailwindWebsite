@@ -1,0 +1,44 @@
+[
+{
+    "title" : "Multithreaded Conways Game of Life",
+    "body" : "A multithreaded implementation of Conways Game of Life written in C.",
+    "core themes" :
+    [
+        "Mutex",
+        "C",
+        "Game Theory",
+        "Simulation"
+    ]
+},
+{
+    "title" : "Rule Based Stock Analysis using Techincal Indicators",
+    "body" : "This NextJS web application provides users with a sandbox environment to create custom rules based upon market technical indicators. This allows users to attempt to predict patterns and future movements of stocks in a market.", 
+    "core themes" : 
+    [
+        "NextJS",
+        "RESTful API",
+        "JavaScript",
+        "Project Management",
+    ]
+},
+{
+    "title" : "Strategists of Duvaar",
+    "body" : "Unity based tactical deck builder. This game allows players to build custom decks based upon 100+ custom cards. Players can use these decks to battle eachother in an online strategic game which tests players skills both on the board and in the deck design process.", 
+    "core themes" : 
+    [
+        "Unity,
+        "C#",
+        "Server/Cient RPCs",
+        "Netcode",
+        "System Design",
+        "Agile project Management",
+        "Jira",
+        "Version Control",
+        "QA testing",
+        "Creative Design"
+        "Team Collaboration"
+    ]
+}
+
+]
+
