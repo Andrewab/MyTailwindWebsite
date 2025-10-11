@@ -6,10 +6,7 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
     <>
-    <main>
-    <div>
-
-    </div>
+    <main className=''>
     <div className ="pt-5 flex-col justify-center">
       <NavBar/>
       <MidElement/>

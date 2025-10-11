@@ -25,8 +25,7 @@ const Navbar = () => {
       <div className='fixed top-0'>
         <img
           src="/images/menuBars.png"
-          className="w-16 h-16 hover-pulse"
-
+          className="w-16 h-16 hover:pulse"
           alt="Home"
 
           onClick={() => setShowDropDown(true)}
