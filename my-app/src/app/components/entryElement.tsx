@@ -3,8 +3,8 @@
 const entryElement = () => {
     return (
     <div className="max-w-2xl min-w-xl m-auto">
-        <div className="flex pt-5 pb-5">
-            <div className="">
+        <div className="flex flex-wrap pt-5 pb-5">
+            <div className="w-3/5">
                 <div className="shadow-xl bg-blue-800 bg-opacity-10">
                         <div className="pl-10 pr-10 pt-5 text-center font-mono font-semibold text-2xl text-blue-800 ">
                             <div >About me: </div>
@@ -21,8 +21,8 @@ const entryElement = () => {
                         </div>
                 </div>
             </div>
-            <div className="shadow-xl bg-blue-800 bg-opacity-10">
-                <div className="">
+            <div className="w-2/5">
+                <div className="shadow-xl bg-blue-800 bg-opacity-10">
                     <div className="pl-10 pr-10 pt-5 text-center font-mono font-semibold text-2xl text-blue-800 ">
                         <p>Skills: </p>
                     </div>
