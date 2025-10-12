@@ -2,7 +2,7 @@
 
 const entryElement = () => {
     return (
-    <div className="max-w-2xl m-auto">
+    <div className="max-w-2xl min-w-xl m-auto">
         <div className="flex pt-5 pb-5">
             <div className="">
                 <div className="shadow-xl bg-blue-800 bg-opacity-10">
