@@ -2,10 +2,10 @@
 
 const entryElement = () => {
     return (
-    <div className="flex justify-center">
-        <div className="grid grid-cols-2 gap-5 justify-center w-2/6">
+    <div className="max-w-2xl m-auto">
+        <div className="flex pt-5 pb-5">
             <div className="">
-                <div className="shadow-xl mx-auto bg-blue-800 bg-opacity-10">
+                <div className="shadow-xl bg-blue-800 bg-opacity-10">
                         <div className="pl-10 pr-10 pt-5 text-center font-mono font-semibold text-2xl text-blue-800 ">
                             <div >About me: </div>
                         </div>
