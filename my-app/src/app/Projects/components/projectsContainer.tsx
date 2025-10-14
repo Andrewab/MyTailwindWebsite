@@ -11,13 +11,13 @@ const ProjectsContainer = () => {
     useEffect(() => {
         async function fetchData() {
         try {
-            const response = await fetch('/projectFiles/projects.txt');
+            const response = await fetch('projectFiles/projects.txt');
             const data = await response.json();
             console.log('Fetched Data', data);
             setProjects(data);
             setLoading(false);
         } catch (error) {
-            console.log('Breaking on PHILPAPERS', error);
+            console.log('Breaking on projects', error);
             setError(true);
             setLoading(false);
         }
