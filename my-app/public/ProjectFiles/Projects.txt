@@ -2,12 +2,12 @@
 {
     "title" : "Multithreaded Conways Game of Life",
     "body" : "A multithreaded implementation of Conways Game of Life written in C.",
-    "link" : "https://github.com/Andrewab/ConwaysGameOfLife"
+    "link" : "private"
 },
 {
     "title" : "Rule Based Stock Analysis using Techincal Indicators",
     "body" : "This NextJS web application provides users with a sandbox environment to create custom rules based upon market technical indicators. This allows users to attempt to predict patterns and future movements of stocks in a market.", 
-    "link" : "https://github.com/clide7029/StockTradingTool"
+    "link" : "private"
 },
 {
     "title" : "Strategists of Duvaar",
