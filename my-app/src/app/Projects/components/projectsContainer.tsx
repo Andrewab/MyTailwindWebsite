@@ -1,6 +1,6 @@
 'use client'
-import { useEffect, useState } from 'react';
 import ProjectItem from './projectItem';
+import { useEffect, useState } from 'react';
 
 const ProjectsContainer = () => {
     const [projects, setProjects] = useState([]);
@@ -11,7 +11,7 @@ const ProjectsContainer = () => {
     useEffect(() => {
         async function fetchData() {
         try {
-            const response = await fetch('/projectFiles/projects.txt');
+            const response = await fetch('/projectFiles/projectsJSON.txt');
             const data = await response.json();
             console.log('Fetched Data', data);
             setProjects(data);
