@@ -33,10 +33,12 @@ const PaperGrid = () => {
         return <div>Error fetching data</div>;
     }
     return (
-        <div className="grid lg:grid-cols-3 p-5">
-            {papers.map((paper,index) => (
-                <PaperItem paper={paper} key={index} />
-            ))}
+        <div className="flex justify-center">
+            <div className="grid lg:grid-cols-3 p-5 lg:w-4/5">
+                {papers.map((paper,index) => (
+                    <PaperItem paper={paper} key={index} />
+                ))}
+            </div>
         </div>
     );
 };

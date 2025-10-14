@@ -13,10 +13,10 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({onMouseLeave, showDropDownMe
   return (
     <div className={`flex flex-col border-solid border-2 bg-gray-300 border-gray-800 fixed top-0 left-0 dropdown-menu ${showDropDownMenu ? 'slide-down' : 'slide-up'}`} onMouseLeave={onMouseLeave}>
       <HomeButton/>
-      <MenuButton text="My resume" link="/extraFiles/Andrew Blanchettes Resume.pdf"/>
-      <MenuButton text="Philosophy Papers" link="./PhilosophyPapers"/>
       <MenuButton text="My Projects" link="./Projects"/>
-
+      <MenuButton text="Philosophy Papers" link="./PhilosophyPapers"/>
+      <MenuButton text="My resume" link="/extraFiles/Andrew Blanchettes Resume.pdf"/>
+      
       <style jsx>{`
         @keyframes slide-down {
           0% {
