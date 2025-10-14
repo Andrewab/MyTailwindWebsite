@@ -1,22 +1,17 @@
 import NavBar from '../components/navBar'
-import EntryElement from '../components/entryElement'
-import TopElement from '../components/topElement'
-import MidElement from '../components/midElement'
 import Footer from '../components/footer'
+import PaperGrid from './components/paperGrid'
 export default function Home() {
   return (
     <>
-    <main>
-    <div>
-
-    </div>
-    <div className ="pt-5 flex-col justify-center">
-      <NavBar/>
-      <MidElement/>
-      <Footer/>
+    <NavBar/>
+    <main className='min-h-screen'>
+    <div className ="flex-col justify-center">
+      <div className='pt-20'></div>
+      <PaperGrid/>
     </div>
     </main>
-
+    <Footer/>
     </>
   )
 }

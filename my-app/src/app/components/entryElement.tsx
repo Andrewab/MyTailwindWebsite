@@ -1,47 +1,14 @@
 'use state'
 
-const entryElement = () => {
+import AboutMe from "./aboutMe";
+import Skills from "./skills";
+
+const EntryElement = () => {
     return (
-    <div className="max-w-2xl min-w-xl m-auto">
-        <div className="flex flex-wrap pt-5 pb-5">
-            <div className="w-3/5">
-                <div className="shadow-xl bg-blue-800 bg-opacity-10">
-                        <div className="pl-10 pr-10 pt-5 text-center font-mono font-semibold text-2xl text-blue-800 ">
-                            <div >About me: </div>
-                        </div>
-                        <div className="p-5 text-l text-black font-mono">
-                            <p>
-                                CoFounder and head Unity Developer at Gandit Games Partnership.</p>
-                            <p className="pt-2"></p>
-                            <p>
-                                Focus in game development, UI/UX design, and interactive storytelling.</p>
-                            <p className="pt-2"></p>
-                            <p>
-                                If you are interested in collaborating or learning more about my work, feel free to reach out!</p>
-                        </div>
-                </div>
-            </div>
-            <div className="w-2/5">
-                <div className="shadow-xl bg-blue-800 bg-opacity-10">
-                    <div className="pl-10 pr-10 pt-5 text-center font-mono font-semibold text-2xl text-blue-800 ">
-                        <p>Skills: </p>
-                    </div>
-                    <div className="pl-5 pr-5 pt-5 text-l text-black font-mono text-center">
-                            <p className="font-bold">Languages & Scripting</p>
-                            <div>JavaScript - Python3 - Java - C - C# - SQLLite - Git - Bash</div>
-                            <p className="font-bold">Applications</p>
-                            <div>Excel - Adobe Premier Pro - Unity - Github - VSCode - Jira</div>
-                            <p className="font-bold">Operating Systems</p>
-                            <div>Windows 10 - MacOS - Ubuntu Linux</div>
-                            <p className="font-bold">Problem Solving</p>
-                            <div>List Comprehension - Algorithms - O(n) - Formal Logic(TFL)</div>
-                            <p className="font-bold">Workflow Strategies</p>
-                            <div>Scrum - AGILE Project Management</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div className="grid grid-cols-1 justify-items-center">
+        <div className="p-5 xl:w-1/4 md:w-1/2"><AboutMe/></div>
+        <div className="p-5 xl:w-1/3 md:w-1/2"><Skills/></div>
     </div>
     )
 }
-export default entryElement;
+export default EntryElement;
