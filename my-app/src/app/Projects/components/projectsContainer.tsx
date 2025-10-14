@@ -1,58 +1,46 @@
 'use client'
 import { useEffect, useState } from 'react';
+import ProjectItem from './projectItem';
 
-interface DataItem {
-  title: string;
-  body: string;
-  link: string;
-}
+const ProjectsContainer = () => {
+    const [projects, setProjects] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
 
-const projectsContainer = () => {
-  const [data, setData] = useState<DataItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+    //try fetching data from the text file
+    useEffect(() => {
+        async function fetchData() {
+        try {
+            const response = await fetch('/projectFiles/projects.txt');
+            const data = await response.json();
+            console.log('Fetched Data', data);
+            setProjects(data);
+            setLoading(false);
+        } catch (error) {
+            console.log('Breaking on PHILPAPERS', error);
+            setError(true);
+            setLoading(false);
+        }
+        }
+        fetchData();
+    }, []);
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch('/philPaperPDFs/philosophyPapers.txt');
-        const data = await response.json();
-        console.log('Fetched Data', data);
-        setData(data);
-        setLoading(false);
-      } catch (error) {
-        console.log('Breaking on PHILPAPERS', error);
-        setError(true);
-        setLoading(false);
-      }
+    if (loading) {
+        return <div>Loading..</div>;
     }
-    fetchData();
-  }, []);
 
-  if (loading) {
-    return <div>Loading..</div>;
-  }
-
-  if (error) {
-    return <div>Error fetching data</div>;
-  }
-
-  return (
-    <div className='grid grid-cols-3 gap-5 justify-center p-5% ml-20 mr-20 mb-20 mt-5'>
-      {data.map((item, index) => (
-        <div className='border-4 border-black border-solid rounded-lg w-full max-w-500 h-400 bg-purple-500 bg-opacity-50 shadow-md font-serif flex bg-b0c4de overflow-auto flex-col ' key={index}>
-          <div className='text-center font-semibold font-roboto text-2xl text-gray-200 bg-blue-600  hover:text-green-500 w-full p-1'>
-          <a href={item.link} target="_blank" rel="noopener noreferrer">
-            {item.title}
-          </a>
-          </div>
-          <div className="font-roboto text-xl p-7">
-            <div>{item.body}</div>
-          </div>
+    if (error) {
+        return <div>Error fetching data</div>;
+    }
+    return (
+      <div className="flex justify-center">
+        <div className="grid lg:grid-cols-3 p-5 lg:w-4/5">
+            {projects.map((project,index) => (
+                <ProjectItem project={project} key={index} />
+            ))}
         </div>
-      ))}
-    </div>
-  );
+      </div>
+    );
 };
 
-export default projectsContainer;
+export default ProjectsContainer;
