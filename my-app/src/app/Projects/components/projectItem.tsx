@@ -8,7 +8,7 @@ const ProjectItem = ({ project }: { project: { title: string; body: string; link
               <div className="pt-2"></div>
               {(project.link == "private") ? <div>Private Repository</div> : <a className="hover:text-green-500" href={project.link} target="_blank" rel="noopener noreferrer">View Code</a>}
               <div className="pt-5"></div>
-              <p className="text-xl">{project.body}</p>
+              <p className="text-l">{project.body}</p>
             </div>
         </div>
   );
