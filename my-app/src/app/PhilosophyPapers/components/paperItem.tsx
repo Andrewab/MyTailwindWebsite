@@ -8,7 +8,7 @@ const PaperItem = ({ paper } : {paper: {title: string, body: string, link: strin
               <div className="pt-2"></div>
                 <a className="hover:text-green-500" href={paper.link} target="_blank" rel="noopener noreferrer">View Paper</a>
               <div className="pt-5"></div>
-              <p className="text-xl">{paper.body}</p>
+              <p className="text-l">{paper.body}</p>
             </div>
         </div>
     );
