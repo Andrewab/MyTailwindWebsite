@@ -1,13 +1,15 @@
 import NavBar from '../components/navBar'
 import Footer from '../components/footer'
 import ProjectsContainer from './components/projectsContainer'
+import ProjectsHeader from './components/ProjectsHeader'
 export default function Home() {
   return (
     <>
     <main className='min-h-screen'>
-    <div className ="pt-5 flex-col justify-center">
+    <div className ="flex-col justify-center">
       <NavBar/>
-      <div className='pt-10'></div>
+      <div className='pt-20'></div>
+      <ProjectsHeader/>
       <ProjectsContainer/>
     </div>
     </main>
